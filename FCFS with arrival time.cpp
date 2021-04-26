@@ -87,10 +87,10 @@ int main()
     int n = sizeof processes / sizeof processes[0];
 
 
-    int burst_time[] = {5, 9, 6};
+    int burst_time[] = {4, 8, 5};
 
 
-    int arrival_time[] = {0, 3, 6};
+    int arrival_time[] = {0, 3, 5};
  
 
     findavgTime(processes, n, burst_time, arrival_time);
